@@ -1,0 +1,27 @@
+https://aws.amazon.com/cli/
+
+https://docs.aws.amazon.com/cli/
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html  configure cli via env
+
+for mobaxtern ssh 
+https://medium.com/@areebaadil109/securely-access-your-cloud-connecting-to-aws-ec2-instances-with-mobaxterm-33dc0dde03b2#:~:text=Ever%20wished%20you%20could%20manage%20your 
+
+for putty ssh if ppk availble
+https://dev.to/gitgeetansh/launching-and-connecting-to-an-aws-ec2-ubuntu-instance-using-putty-1ell  
+
+for putty if pem
+https://linux.how2shout.com/how-to-connect-to-aws-ec2-instance-using-putty-ssh/#:~:text=Learn%20the%20simple%20steps%20to%20connect
+
+add bucket plicy for public access after untick of blockpublicaccess setting
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsReqd.html#:~:text=1%20Open%20the%20Amazon%20S3%20console%20at%20https%3A%2F%2Fconsole.aws.amazon.com%2Fs3%2F.,Block%20Public%20Access%20settings%20for%20your%20bucket.%20
+
+for trrafrm to upload a file content completely to s3 bucket
+https://stackoverflow.com/questions/57456167/uploading-multiple-files-in-aws-s3-from-terraform#:~:text=Add%20a%20comment-,1,By%20using%20content_type%20you%20can%20upload%20html%20files%20for%20static%20websites.,-Share
+not suggested but if needed  file /upload-html-to-s3/main.tf
+
+tf awsprovider block public-access block
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_public_access_block
+
