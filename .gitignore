@@ -1,0 +1,33 @@
+#env
+.env
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore variable files with sensitive information
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (can be used for local setup)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore .terraform directory (local Terraform module cache and environment)
+.terraform/
+.terraform.lock.hcl
+
+# Ignore generated files by editor or OS
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
